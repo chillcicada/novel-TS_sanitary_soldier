@@ -28,11 +28,5 @@
 
 #table(
   columns: (auto, auto, 1fr),
-  table.header(
-    "时间",
-    "事件",
-    "简述",
-  ),
-
   ..csv("timeline.csv").flatten(),
 )

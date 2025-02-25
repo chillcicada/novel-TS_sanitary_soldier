@@ -28,10 +28,5 @@
 
 #table(
   columns: (auto, 1fr),
-  table.header(
-    "用语",
-    "解释",
-  ),
-
   ..csv("glossary.csv").flatten(),
 )

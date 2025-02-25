@@ -28,11 +28,5 @@
 
 #table(
   columns: (auto, auto, 1fr),
-  table.header(
-    "阵营",
-    "姓名",
-    "简述",
-  ),
-
   ..csv("name-list.csv").flatten(),
 )
